@@ -1,0 +1,17 @@
+Package: abglasso
+Title: Adaptive Bayesian Graphical Lasso
+Version: 0.1.0
+Authors@R: person("Jarod", "Smith", email = "jarodsmith706@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4235-6147"))
+Description: Implements an adaptive Bayesian graphical lasso Markov chain Monte Carlo (MCMC) sampler using a data-augmented block Gibbs sampler. The sampler simulates the posterior distribution of precision matrices of a Gaussian Graphical Model (GGM). This sampler was adapted from the original MATLAB routine proposed in Wang (2012) <doi:10.1214/12-BA729>.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Imports:
+	MASS,
+	pracma,
+	stats,
+	statmod
+Suggests: 
+    testthat
