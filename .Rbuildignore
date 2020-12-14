@@ -3,3 +3,4 @@
 ^LICENSE\.md$
 ^abglasso.Rproj
 ^REFERENCES.bib
+^\.travis\.yml$
