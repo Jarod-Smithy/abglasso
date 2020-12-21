@@ -2,7 +2,7 @@
 #'
 #' An adaptive Bayesian graphical lasso Markov chain Monte Carlo (MCMC) sampler using a data-augmented block Gibbs sampler. The sampler is adapted from the MATLAB routines used in Wang (2012).
 #'
-#' @param X numeric matrix.
+#' @param X Numeric matrix.
 #' @param burnin An integer specifying the number of burn-in iterations.
 #' @param nmc An integer specifying the number of MCMC samples.
 #'

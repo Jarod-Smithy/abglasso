@@ -7,7 +7,7 @@
 BayesGlassoGDP(X, burnin = 1000, nmc = 2000)
 }
 \arguments{
-\item{X}{numeric matrix.}
+\item{X}{Numeric matrix.}
 
 \item{burnin}{An integer specifying the number of burn-in iterations.}
 
