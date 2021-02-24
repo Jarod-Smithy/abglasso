@@ -4,3 +4,4 @@
 ^abglasso.Rproj
 ^REFERENCES.bib
 ^\.travis\.yml$
+^cran-comments\.md$
