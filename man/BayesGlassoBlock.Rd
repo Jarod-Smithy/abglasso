@@ -36,7 +36,7 @@ mu            <- rep(0,p)
 # Generate multivariate normal distribution:
 set.seed(123)
 X             <- MASS::mvrnorm(n,mu=mu,Sigma=SigTrue)
-abglasso_post <- BayesGlassoGDP(X,burnin = 1000,nmc = 2000)
+abglasso_post <- BayesGlassoBlock(X,burnin = 1000,nmc = 2000)
 }
 }
 \references{

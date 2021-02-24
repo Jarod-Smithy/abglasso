@@ -5,3 +5,5 @@
 ^REFERENCES.bib
 ^\.travis\.yml$
 ^cran-comments\.md$
+^\.git$
+^\.DS_Store$
