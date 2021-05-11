@@ -18,7 +18,7 @@
 #' @importFrom statmod rinvgauss
 #'
 #' @references Wang, H. (2012). Bayesian graphical lasso models and efficient
-#' posterior computation. \emph{Bayesian Analysis, 7}(4). <doi:10.1214/12-BA729> .
+#' posterior computation. \emph{Bayesian Analysis, 7}(4). \doi{10.1214/12-BA729}.
 #'
 #' @examples
 #' \donttest{
@@ -91,7 +91,7 @@ for(iter in 1:(total_it)){
   # Sample off-diagonal lambda:
   s_post <- 1+s
   t_post <- Cadjust+t
-  lambda <- sapply(t_post,function(x) rgamma(1,shape=s_post + 1, scale = x))
+  lambda <- sapply(t_post,function(x) rgamma(1,shape=s_post, x))
 
   # Sample off-diagonal tau:
   lambda_prime <- lambda^2

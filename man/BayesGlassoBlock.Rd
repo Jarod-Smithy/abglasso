@@ -41,5 +41,5 @@ abglasso_post <- BayesGlassoBlock(X,burnin = 1000,nmc = 2000)
 }
 \references{
 Wang, H. (2012). Bayesian graphical lasso models and efficient
-posterior computation. \emph{Bayesian Analysis, 7}(4). \url{doi:10.1214/12-BA729} .
+posterior computation. \emph{Bayesian Analysis, 7}(4). \doi{10.1214/12-BA729}.
 }
