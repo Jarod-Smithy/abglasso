@@ -1,6 +1,6 @@
 Package: abglasso
 Title: Adaptive Bayesian Graphical Lasso
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Jarod", "Smith", email = "jarodsmith706@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4235-6147")),
   person("Mohammad", "Arashi", email = "arashi@um.ac.ir", role = "aut", comment = c(ORCID = "0000-0003-4793-5674")),
   person("Andriette", "Bekker", email = "andriette.bekker@up.ac.za", role = "aut", comment = c(ORCID = "0000-0002-5881-9241")))
